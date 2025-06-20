@@ -50,27 +50,6 @@ Password: password123
 Role: Administrator
 Note: Change these credentials immediately in production
 
-**📁 Project Structure**
-
-src/
-├── components/
-│   ├── auth/
-│   │   ├── Login.tsx              # User authentication
-│   │   ├── Register.tsx           # Account registration
-│   │   ├── ForgotPassword.tsx     # Password recovery
-│   │   └── ResetPassword.tsx      # Password reset
-│   ├── Layout.tsx                 # Main application layout
-│   ├── Dashboard.tsx              # User dashboard
-│   ├── SubmitBug.tsx             # Bug report submission
-│   ├── AddApp.tsx                # Application registration
-│   └── Admin.tsx                 # Admin management panel
-├── utils/
-│   ├── security.ts               # Security utilities
-│   └── storage.ts                # Data management
-├── types/
-│   └── index.ts                  # TypeScript definitions
-└── App.tsx                       # Main application component
-
 **🛡️ Security Features**
 **Authentication & Authorization**
 Password Requirements: Minimum 8 characters with uppercase, lowercase, numbers, and special characters
